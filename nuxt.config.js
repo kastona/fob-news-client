@@ -32,8 +32,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     {src: '~/plugins/toast', mode: 'client'},
-    {src: '~/plugins/social', mode: 'client'},
-    {src: '~/plugins/vuetify'}
+    {src: '~/plugins/social', mode: 'client'}
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -41,7 +40,8 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    
+    // https://go.nuxtjs.dev/vuetify
+    "@nuxtjs/vuetify"
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -72,6 +72,16 @@ export default {
     }
   },
 
+
+  // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
+  vuetify: {
+    customVariables: ["~/assets/scss/variables.scss"],
+    optionsPath: "./vuetify.options.js",
+    treeShake: false,
+    options: {
+      customProperties: true
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {}
