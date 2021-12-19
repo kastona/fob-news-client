@@ -1,0 +1,93 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/home/steve/fob-news-client/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_a253136e"
+  },
+  {
+    "name": "admin",
+    "path": "/admin",
+    "component": "/home/steve/fob-news-client/pages/admin/index.vue",
+    "chunkName": "pages/admin/index",
+    "_name": "_0c1ef74e"
+  },
+  {
+    "name": "interviews",
+    "path": "/interviews",
+    "component": "/home/steve/fob-news-client/pages/interviews.vue",
+    "chunkName": "pages/interviews",
+    "_name": "_6f909086"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/home/steve/fob-news-client/pages/login/index.vue",
+    "chunkName": "pages/login/index",
+    "_name": "_06020ae8"
+  },
+  {
+    "name": "news",
+    "path": "/news",
+    "component": "/home/steve/fob-news-client/pages/news/index.vue",
+    "chunkName": "pages/news/index",
+    "_name": "_2184c3ec"
+  },
+  {
+    "name": "videos",
+    "path": "/videos",
+    "component": "/home/steve/fob-news-client/pages/videos.vue",
+    "chunkName": "pages/videos",
+    "_name": "_79f067cc"
+  },
+  {
+    "name": "admin-create-post",
+    "path": "/admin/create-post",
+    "component": "/home/steve/fob-news-client/pages/admin/create-post.vue",
+    "chunkName": "pages/admin/create-post",
+    "_name": "_2ffed2cd"
+  },
+  {
+    "name": "admin-messages",
+    "path": "/admin/messages",
+    "component": "/home/steve/fob-news-client/pages/admin/messages.vue",
+    "chunkName": "pages/admin/messages",
+    "_name": "_2b277e80"
+  },
+  {
+    "name": "news-crime",
+    "path": "/news/crime",
+    "component": "/home/steve/fob-news-client/pages/news/crime.vue",
+    "chunkName": "pages/news/crime",
+    "_name": "_2a41e62a"
+  },
+  {
+    "name": "news-politics",
+    "path": "/news/politics",
+    "component": "/home/steve/fob-news-client/pages/news/politics.vue",
+    "chunkName": "pages/news/politics",
+    "_name": "_3af9b44e"
+  },
+  {
+    "name": "admin-edit-post-id",
+    "path": "/admin/edit-post/:id?",
+    "component": "/home/steve/fob-news-client/pages/admin/edit-post/_id.vue",
+    "chunkName": "pages/admin/edit-post/_id",
+    "_name": "_6a23f4aa"
+  },
+  {
+    "name": "news-id-title",
+    "path": "/news/:id/:title?",
+    "component": "/home/steve/fob-news-client/pages/news/_id/_title.vue",
+    "chunkName": "pages/news/_id/_title",
+    "_name": "_1ffb9346"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/steve/fob-news-client/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_62e35de4"
+  }
+]
