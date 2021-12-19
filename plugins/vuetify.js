@@ -7,6 +7,7 @@ Vue.use(Vuetify)
 
 export default ctx => {
   const vuetify = new Vuetify({
+      treeShake: false,
     theme: {
       dark: false,
       themes: {

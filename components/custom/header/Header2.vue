@@ -9,7 +9,7 @@
         <div style="width: 200px" class="logo">
           <NLink to="/">
             <v-img
-              :src="require('@/static/images/logos/white-text.png')"
+              :src="'/images/logos/white-text.png'"
               alt="logo"
             />
           </NLink>
